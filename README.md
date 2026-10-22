@@ -124,12 +124,6 @@ The results should therefore be interpreted as a preliminary remote-sensing inve
 
 AI tools were used to assist with parts of the Google Earth Engine coding workflow, including code development, debugging, and workflow refinement. The resulting scripts and outputs should be interpreted in accordance with the project's documented methods and limitations.
 
-## AI Assistance and Acknowledgment
-
-AI tools were used to assist with writing and refining parts of the Google Earth Engine JavaScript code, including API usage, utility functions, and workflow improvements. This helped streamline development and improve productivity.
-
-The project’s objectives, study approach, candidate review, interpretation of satellite imagery, validation decisions, and final presentation were developed and reviewed as part of the project workflow. AI-assisted code was used as a development aid, and outputs should be interpreted within the methodological limitations documented in this repository.
-
 ## Author
 
 **Gaurav Nawle**  
