@@ -91,6 +91,39 @@ The `gee/` directory contains the processing scripts. The `qgis/` directory cont
 
 To reproduce the workflow, users will need access to Google Earth Engine, the source datasets, and a compatible QGIS installation. Processing parameters and dataset date ranges should be checked in the scripts before running the analysis.
 
+## Results and Limitations
+
+### Results
+
+The HIMALAYA-H2O project developed a Google Earth Engine and QGIS workflow for identifying and reviewing high-altitude waterbody candidates in the Indian Himalaya.
+
+- **750 candidate waterbodies** were included in the automated screening workflow.
+- **73 candidates** were selected for manual review using Sentinel-2 satellite imagery.
+- Candidates were assessed using spectral water indicators, Sentinel-2 Scene Classification Layer (SCL) observations, snow/ice information, and visual inspection.
+- Each manually reviewed candidate was assigned a classification and review notes documenting the available evidence.
+- A final QGIS map was prepared to present the spatial distribution of the manually reviewed candidates.
+
+### Project Outputs
+
+- **Google Earth Engine scripts:** Study area preparation, elevation analysis, waterbody candidate generation, automated screening, and Sentinel-2 manual review.
+- **Manual-review dataset:** `HIMALAYA_H2O_Manual_Review_Final.csv`
+- **Final map:** `Manual Validation.pdf`
+- **Map preview:** `Manual Validation.png`
+
+### Limitations
+
+- The inventory represents candidate waterbodies and should not be interpreted as a complete inventory of all Himalayan lakes or wetlands.
+- Automated water indicators, including NDWI and SCL water frequency, can be affected by snow, ice, terrain shadows, rivers, and other surface features.
+- Manual classifications reflect the available satellite imagery and the evidence observed during the review process. Uncertain candidates are retained as uncertain rather than treated as confirmed lakes.
+- The elevation threshold used in the workflow is a project-defined screening criterion, not a universal definition of a high-altitude waterbody.
+- The analysis does not independently establish the glacial origin, long-term persistence, or outburst-flood risk of individual waterbodies.
+
+The results should therefore be interpreted as a preliminary remote-sensing inventory and validation workflow that can support further investigation of high-altitude waterbodies in the Himalaya.
+
+### AI Assistance and Acknowledgment
+
+AI tools were used to assist with parts of the Google Earth Engine coding workflow, including code development, debugging, and workflow refinement. The resulting scripts and outputs should be interpreted in accordance with the project's documented methods and limitations.
+
 ## AI Assistance and Acknowledgment
 
 AI tools were used to assist with writing and refining parts of the Google Earth Engine JavaScript code, including API usage, utility functions, and workflow improvements. This helped streamline development and improve productivity.
